@@ -12,8 +12,8 @@ pipeline {
     }
 
     environment{
-        BUILD_SERVER='ec2-user@35.154.224.247'
-        IMAGE_NAME='devopstrainer/java-mvn-privaterepos'
+        BUILD_SERVER='ec2-user@'172.31.44.24'
+        IMAGE_NAME='dattasai4/java-mvn-privaterepos'
         //DEPLOY_SERVER='ec2-user@172.31.36.141'
         AWS_ACCESS_KEY_ID =credentials("jenkins_aws_access_key_id")
                    AWS_SECRET_ACCESS_KEY=credentials("jenkins_aws_secret_access_key")
